@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');  
@@ -43,3 +44,4 @@ Route::post('update_re','CourseController@updateForm_re');//ทำการอ�
 Route::get('re_del{id}_{ac}','CourseController@del_re');//ลบรายการลงทะเบียน
 
 Route::get('/Course_ListReg{id}', 'CourseController@getRe_Co');//แสดงรายชื่อการลงทะเบียน หน้า 
+

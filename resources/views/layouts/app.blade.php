@@ -20,7 +20,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<style>
+{{-- <style>
     #example2 {
      
      
@@ -29,7 +29,7 @@
      background-size: 1700px 650px;
     
     }
-    </style>
+    </style> --}}
     <body id="example2"  >
     <div id="app">
         <nav class="navbar navbar-expand-sm " style="background-color: #8B8386;" >
